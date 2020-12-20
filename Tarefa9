@@ -1,0 +1,31 @@
+programa {
+	funcao inicio() {
+		
+          real Nota1 real Nota2 real Nota3 real Nota4 
+          
+
+	    	
+		
+		escreva("Qual nota você tirou 1º Bimestre?:")
+		leia(Nota1)
+		escreva("Qual nota você tirou no 2º Bimestre?: ")
+		leia(Nota2)
+		escreva("Qual nota você tirou no 3º Bimestre?: ")
+		leia(Nota3)
+		escreva("Qual Nota você tirou no 4º Bimestre?:")
+		leia(Nota4)
+		
+		real conta = (Nota1 + Nota2 + Nota3 + Nota4)/ 4
+		limpa()
+		
+		se( conta >= 100){ 
+		    escreva("Você foi Aprovado:", conta)
+		}
+		se( conta == 10){
+		    escreva("Você foi aprovado com Distinção:", conta)
+		}
+		    se(conta < 7)
+		    escreva("Você foi reprovado,:", conta)
+		}
+	
+}
