@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     real primeiroNumero
+		real segundoNumero
+
+	     escreva("Fale o primeiro número?: ")
+	     leia(primeiroNumero)
+
+	     escreva("Fale o segundo número?: ")
+	     leia(segundoNumero)
+
+	     se(primeiroNumero < segundoNumero)
+	     escreva ("O maior número é: ", segundoNumero)
+
+	     senao 
+	     escreva("O maior número é: ", primeiroNumero)
+	}
+}
