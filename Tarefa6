@@ -1,0 +1,37 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numeroa
+		inteiro numerob
+		inteiro numeroc
+
+		escreva("Diga o primerio número: ")
+		leia(numeroa)
+
+		escreva("Diga o segundo número: ")
+		leia(numerob)
+
+		escreva("Diga o terceiro número: ")
+		leia(numeroc)
+
+		se(numeroa > numerob e numeroa > numerob e numerob> numeroc)
+		escreva("A ordem decrescente fica: ", numeroa , ", " , numerob , ", ",numeroc)
+		 
+		se(numerob > numeroa e numerob > numeroc e numeroa > numeroc)
+		escreva("A ordem decrescente fica: ", numerob , ", " , numeroa , ", ",numeroc)
+
+		se(numeroc > numeroa e numeroc > numerob e numerob >  numeroa)
+		escreva("A ordem decrescente fica: ", numeroc , ", " , numerob , ", ",numeroa)
+		
+		se(numeroa > numerob e numeroa > numeroc e numeroc > numerob)
+		escreva("A ordem decrescente fica: ", numeroa , ", " , numeroc , ", ",numerob)
+		
+		se(numerob > numeroa e numerob > numeroc e numeroc > numeroa)
+		escreva("A ordem decrescente fica: ", numerob , ", " , numeroc , ", ",numeroa)
+
+		se(numeroc > numeroa e numeroc > numerob e numeroa > numerob)
+		escreva("A ordem decrescente fica: ", numeroc , ", " , numeroa , ", ",numerob)
+	}
+}
