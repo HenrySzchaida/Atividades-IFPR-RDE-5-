@@ -1,18 +1,16 @@
-programa {
-	funcao inicio() {
-	    
-		
-		cadeia letra
-		
-		escreva("Digite uma letra e falarei se é consoante ou vogal: ")
+programa
+{
+	caracter letra
+	funcao inicio()
+	{
 		leia(letra)
-		
-		se (letra == "a" ou letra == "e" ou letra == "i" ou letra == "o" ou letra == "u") 
-		    escreva("A sua letra será uma vogal!")
+
+
+		se(letra == 'a' ou letra == 'e' ou letra == 'i' ou letra == 'o' ou letra == 'u' ){
+			escreva("VOGAL!")
+		}senao {
+			escreva("CONSOANTE!")
 		}
-		    senao{
-		        escreva("A sua letra será uma consoante!")
-		    }
 		
-	
+	}
 }
