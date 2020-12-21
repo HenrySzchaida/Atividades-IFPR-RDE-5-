@@ -1,21 +1,26 @@
 programa
 {
+	//1) Faça um Programa que peça dois números e imprima o maior deles.
+
+	inteiro num1
+	inteiro num2
 	
 	funcao inicio()
 	{
-	     real primeiroNumero
-		real segundoNumero
+		escreva("me dê o primeiro número: ")
+		leia(num1)
+		
+		escreva("me dê o segundo número: ")
+		leia(num2)
 
-	     escreva("Fale o primeiro número?: ")
-	     leia(primeiroNumero)
-
-	     escreva("Fale o segundo número?: ")
-	     leia(segundoNumero)
-
-	     se(primeiroNumero < segundoNumero)
-	     escreva ("O maior número é: ", segundoNumero)
-
-	     senao 
-	     escreva("O maior número é: ", primeiroNumero)
+		se(num1 > num2){
+			escreva("o maior numero é o primeiro - ", num1)
+		
+		} senao se(num2 > num1) {
+			escreva("o maior numero é o segundo - ", num2)
+		
+		} senao {
+			escreva("os números são iguaus")
+		}
 	}
 }
